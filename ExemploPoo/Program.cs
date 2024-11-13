@@ -1,8 +1,35 @@
-﻿using ExemploPoo.Models;
+﻿using ExemploPoo.Interfaces;
+using ExemploPoo.Models;
 
 
-Aluno a1 = new Aluno();
-a1.Apresentar();
+ICalculadora calc = new Calculadora();
+
+Console.WriteLine(calc.Multiplicar(8, 9));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Aluno a1 = new Aluno();
+// a1.Apresentar();
 
 
 
