@@ -1,11 +1,32 @@
 ﻿using ExemploPoo.Models;
 
 
-Corrente c1 = new Corrente();
+Aluno a1 = new Aluno();
+a1.Apresentar();
 
 
-c1.ExibirSaldo();
-c1.Creditar(1080.08M);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Corrente c1 = new Corrente();
+
+
+// c1.ExibirSaldo();
+// c1.Creditar(1080.08M);
 
 
 
